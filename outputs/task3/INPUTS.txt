@@ -1,0 +1,2 @@
+A: /Users/macbook/Documents/Year 5/Image Processing/Image_lab1/imagefortask1-4.png
+B: horizontally flipped A

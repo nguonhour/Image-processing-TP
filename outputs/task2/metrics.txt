@@ -1,0 +1,4 @@
+N = 50
+Single noisy MSE (unclipped): 400.9282
+Average MSE (unclipped): 7.9965
+Expected noise variance: single = 400; average = 8.0000
