@@ -79,7 +79,7 @@ def run(a, output, n, alpha_seed=42):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=Path('outputs'))
-    parser.add_argument('--a', type=Path, default=Path(__file__).resolve().parent / 'imagefortask1-4.png', help='Baseline image; color is converted manually to grayscale')
+    parser.add_argument('--a', type=Path, default=Path(__file__).resolve().parent / 'sample_inputs' / 'imagefortask1-4.png', help='Baseline image; color is converted manually to grayscale')
     parser.add_argument('--n', type=int, default=50)
     args = parser.parse_args()
     if args.n < 1:

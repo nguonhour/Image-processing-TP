@@ -17,7 +17,7 @@ python task4.py
 python task5.py
 ```
 
-Tasks 1–4 default to `imagefortask1-4.png` beside the scripts. Color is converted
+Tasks 1–4 default to `sample_inputs/imagefortask1-4.png`. Color is converted
 to grayscale manually using NumPy. Tasks 1 and 3 use a horizontally flipped
 copy as B unless you supply `--b another_image.png`. Task 5 defaults to synthetic
 demo frames; use the teacher's frames for submission. Results are saved under `outputs/`.

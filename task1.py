@@ -71,7 +71,7 @@ def run(a, b, output):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=Path('outputs'))
-    parser.add_argument('--a', type=Path, default=Path(__file__).resolve().parent / 'imagefortask1-4.png')
+    parser.add_argument('--a', type=Path, default=Path(__file__).resolve().parent / 'sample_inputs' / 'imagefortask1-4.png')
     parser.add_argument('--b', type=Path)
     args = parser.parse_args()
     a = load(args.a)
